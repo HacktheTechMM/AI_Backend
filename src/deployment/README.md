@@ -15,7 +15,7 @@ This project provides a set of FastAPI-based microservices for AI-powered educat
 
 ### 1. Code Test
 
-- **Endpoint:** `https://ai-backend-12.onrender.com/formatcode/invoke`
+- **Endpoint:** `/codetest/invoke`
 - **Example Request:**
   ```json
   { "input": { "level": "beginner", "input": "start" } }
@@ -25,7 +25,7 @@ This project provides a set of FastAPI-based microservices for AI-powered educat
 
 ### 2. Text-to-Text Chat
 
-- **Endpoint:** `https://ai-backend-1-n8mt.onrender.com/chat/`
+- **Endpoint:** `/chat/`
 - **Example Request:**
   ```json
   { "prompt": "Programming ဆိုတာဘာလဲ" }
@@ -35,7 +35,7 @@ This project provides a set of FastAPI-based microservices for AI-powered educat
 
 ### 3. Roadmap Generation
 
-- **Endpoint:** ` https://ai-backend-3-3gjd.onrender.com/roadmap/invoke/`
+- **Endpoint:** `/roadmap/invoke`
 - **Example Request:**
   ```json
   {
@@ -47,7 +47,7 @@ This project provides a set of FastAPI-based microservices for AI-powered educat
 
 ### 4. Explain Details
 
-- **Endpoint:** `https://ai-backend-9.onrender.com/steps/invoke/`
+- **Endpoint:** `/steps/invoke`
 - **Example Request:**
   ```json
   {
@@ -61,7 +61,7 @@ This project provides a set of FastAPI-based microservices for AI-powered educat
 
 ### 5. Quiz Generation
 
-- **Endpoint:** `https://quizzz-cver.onrender.com/quiz/invoke`
+- **Endpoint:** `/quiz/invoke`
 - **Example Request:**
   ```json
   { "input": { "input": "{Beginner Python}" } }
