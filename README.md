@@ -1,14 +1,6 @@
 # AI Backend
 
-<<<<<<< HEAD
 This project provides a set of FastAPI-based microservices for AI-powered educational tools, including code testing, quizzes, roadmaps, explanations, and text-to-text chat. Each service is accessible via a REST API endpoint.
-=======
-In order to test "code_test" : https://ai-backend-12.onrender.com/formatcode/invoke
-{"input":{
-"input": "advanced code test question"
-}}
-take the output: ["output"]["content"]
->>>>>>> 3f7168c51a6200be14864a052ce0cea1b54eeae6
 
 ## Table of Contents
 
@@ -17,15 +9,8 @@ take the output: ["output"]["content"]
 - [API Usage](#api-usage)
 - [Dependencies](#dependencies)
 
----
 
-<<<<<<< HEAD
 ## Features & Endpoints
-=======
-In order to test "quiz" : https://quizzz-cver.onrender.com/quiz/invoke
-{"input":{"input": "{Beginner Python}"}}
-take the output: ['output']['content']
->>>>>>> 3f7168c51a6200be14864a052ce0cea1b54eeae6
 
 ### 1. Code Test
 
